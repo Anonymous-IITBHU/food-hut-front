@@ -21,7 +21,7 @@ export default function () {
     //     location: credentials.geolocation,
     //   })
     // );
-    const response = await fetch("https://food-hut-back-v1.vercel.app/api/createuser", {
+    const response = await fetch("https://food-hut-back.vercel.app/api/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
