@@ -7,7 +7,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     // console.log(localStorage.getItem("userEmail"));
-    await fetch("https://food-hut-back.vercel.app/api/myOrderData", {
+    await fetch("https://food-hut-back.vercel.app/api/auth/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
